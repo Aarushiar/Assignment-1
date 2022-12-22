@@ -1,0 +1,5 @@
+Number_seconds = int(input("enter number of seconds:"))
+Minutes = Number_seconds//60
+print("Minutes",str(Minutes))
+Seconds = Number_seconds%60
+print("Seconds:", str(Seconds))
